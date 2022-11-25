@@ -297,6 +297,76 @@ a { font-family: 'Raleway', sans-serif; }
 
 .service-anc { color: var(--primary-color); }
 /*------------------------ what we do section styling ends here ------------------------*/
+/*------------------------ testimonials section styling starts here ------------------------*/
+.testimonials {
+  padding: 98px 0;
+  background: url(../images/infinite-loop-02.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--white-color);
+  object-fit: cover;
+}
+
+.testimonials .heading {
+  margin-bottom: 40px;
+  color: var(--white-color);
+  text-align: center;
+}
+
+.subtitle-info {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.testimonial-list {
+  margin-top: 90px;
+  padding: 0 10.5%;
+  flex-wrap: wrap;
+}
+
+.testimonial-item {
+  flex-basis: 29%;
+  margin-right: 6.5%;
+}
+
+.testimonial-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.testimonial-item figure {
+  margin-bottom: 42px;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-info {
+  margin-bottom: 28px;
+  line-height: 28px;
+}
+
+.testimonial-item { display: none; }
+
+.testimonial-item:nth-child(1),
+.testimonial-item:nth-child(2),
+.testimonial-item:nth-child(3) {
+  display: block;
+}
+
+.testimonial-names {
+  display: block;
+  text-align: right;
+}
+/*------------------------ testimonials section styling ends here ------------------------*/
 
 
 
