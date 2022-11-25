@@ -120,6 +120,11 @@ li {
 .italic { font-style: italic; }
 a { font-family: 'Raleway', sans-serif; }
 
+.heading {
+  font-size: 40px;
+  color: var(--primary-color);
+}
+
 :root {
   --primary-color: #3476A8;
   --font-color: #A1867C;
@@ -225,9 +230,73 @@ a { font-family: 'Raleway', sans-serif; }
   font-weight: 900;
   color: var(--white-color);
 }
+/*------------------------ hero section styling ends here ------------------------*/
+/*------------------------ what we do section styling starts here ------------------------*/
+.what-we-do {
+  padding: 108px 0 100px;
+}
 
+.what-we-do .heading {
+  margin-bottom: 35px;
+}
 
-/*------------------------ hero section styling starts here ------------------------*/
+.service-content {
+  color: var(--font-color);
+  font-size: 19px;
+  line-height: 35px;
+}
+
+.service-heading {
+  margin-bottom: 34px;
+  color: var(--primary-color);
+  font-size: 31px;
+  font-weight: 600;
+}
+
+.service-list {
+  margin-top: 84px;
+  flex-wrap: wrap;
+}
+
+.service-item {
+  flex-basis: 50%;
+  margin-bottom: 122px;
+  padding-right: 1%;
+}
+
+.users { padding-right: 0; }
+
+.service-info {
+  color: var(--font-color);
+  font-size: 19px;
+  line-height: 36px;
+}
+
+.service-item::before {
+  content: "\e0e3";
+  font-family: "FontAwesome";
+  float: left;
+  color: var(--primary-color);
+  font-size: 50px;
+  height: 100%;
+  margin:0 7% 1px 1%;
+}
+
+.chat::before { content: "\f27a"; }
+.fingerprint::before { content: "\f577"; }
+.users::before { content: "\f0c0"; }
+
+.learn-btn,
+.details-btn {
+  padding: 16px 29px;
+  margin-top: 34px;
+  font-size: 19px;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+
+.service-anc { color: var(--primary-color); }
+/*------------------------ what we do section styling ends here ------------------------*/
 
 
 
