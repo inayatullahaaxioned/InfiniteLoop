@@ -396,6 +396,96 @@ a { font-family: 'Raleway', sans-serif; }
   margin-right: 0;
 }
 /*------------------------ Gallery section styling ends here ------------------------*/
+/*------------------------ contact section styling starts here ------------------------*/
+.contact {
+  padding: 70px 0 0;
+  background: url(../images/infinite-loop-03.jpg) center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--white-color);
+  object-fit: cover;
+}
+
+.contact .heading {
+  margin-bottom: 45px;
+  color: var(--white-color);
+  text-align: center;
+}
+
+.contact .subtitle-info {
+  width: 78%;
+  margin-bottom: 85px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.contact-container {
+  padding: 0 9% 174px;
+}
+
+.form {
+  margin-right: 9.5%;
+  flex-basis: 44%;
+}
+
+.input-group input,
+.message {
+  width: 100%;
+  padding: 15px 20px;
+  border: 1px solid var(--white-color);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  outline: none;
+}
+
+.form input::placeholder,
+.message::placeholder {
+  color: var(--white-color);
+  font-size: 18px;
+}
+
+.message {
+  height: 268px;
+  resize: none;
+}
+
+.submit-btn {
+  width: 55%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  font-size: 17px;
+}
+
+.social-list {
+  flex-direction: column;
+}
+
+.social-list li { margin: 25px 0; }
+
+.social-icon {
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.social-icon::before {
+  content: "\f075";
+  margin-right: 25px;
+  font-family: "FontAwesome";
+  float: left;
+  font-size: 40px;
+}
+
+.envelope::before { content: "\f0e0"; }
+.address::before { content: "\f3c5"; }
+.phone::before { content: "\f87b"; }
+/*------------------------ contact section styling ends here ------------------------*/
 
 
 
