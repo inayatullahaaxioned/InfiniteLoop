@@ -367,6 +367,35 @@ a { font-family: 'Raleway', sans-serif; }
   text-align: right;
 }
 /*------------------------ testimonials section styling ends here ------------------------*/
+/*------------------------ Gallery section styling starts here ------------------------*/
+.gallery {
+  padding: 115px 0;
+}
+
+.gallery .heading {
+  margin-bottom: 27px;
+  text-align: center;
+}
+
+.gallery .subtitle-info {
+  color: var(--font-color);
+  width: 50%;
+  font-size: 13px;
+}
+
+.gallery-list {
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  margin-right: 2.85%;
+  flex-basis: 17.7%;
+}
+
+.gallery-item:nth-child(5n) {
+  margin-right: 0;
+}
+/*------------------------ Gallery section styling ends here ------------------------*/
 
 
 
