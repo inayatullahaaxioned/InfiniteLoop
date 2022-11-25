@@ -486,26 +486,33 @@ a { font-family: 'Raleway', sans-serif; }
 .address::before { content: "\f3c5"; }
 .phone::before { content: "\f87b"; }
 /*------------------------ contact section styling ends here ------------------------*/
-
-
-
-
-
-
 /*=================================
   main styling ends here
 =================================*/
 
 /*=================================
   footer styling starts here
-=================================*/ 
+=================================*/
+.container { position: relative; }
 
+.footer {
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: var(--white-color);
+  text-align: center;
+}
 
+.copyright {
+  font-size: 15px;
+  letter-spacing: .5px;
+}
 
-
-
-
-
+.footer-anc {
+  color: var(--white-color);
+}
  /*=================================
   footer styling ends here
 =================================*/ 
