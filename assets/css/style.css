@@ -303,9 +303,11 @@ a { font-family: 'Raleway', sans-serif; }
 .details-btn {
   padding: 16px 29px;
   margin-top: 34px;
+  border: 1px solid transparent;
   font-size: 19px;
   color: var(--white-color);
   background-color: var(--primary-color);
+  transition: all .3s ease-in;
 }
 
 .service-anc { color: var(--primary-color); }
@@ -547,6 +549,14 @@ a { font-family: 'Raleway', sans-serif; }
   }
 
   .social-icon:hover {
+    color: var(--primary-color);
+    transition: all .3s;
+  }
+
+  .details-btn:hover,
+  .learn-btn:hover {
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
     color: var(--primary-color);
     transition: all .3s;
   }
