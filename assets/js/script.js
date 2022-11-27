@@ -153,10 +153,26 @@ $('.testimonial-list').slick({
 });
 
 
+//moving to section
+const navItem = document.querySelectorAll('.scroll'),
+      sections = document.querySelectorAll('section');
 
-
-
-
+navItem.forEach(function (item) {
+  let active = navbar.querySelector('.active');
+  item.addEventListener('click', function(e){
+    e.preventDefault();
+    let sectionUrl = item.getAttribute('href');
+    sections.forEach(function(section) {
+      let sectionId = section.getAttribute('id');
+      if(sectionId == sectionUrl.replace('#',"")){
+        let sectionTop = section.getBoundingClientRect().top;
+        window.scrollBy({
+          top: sectionTop
+        });
+      };
+    });
+  });
+});
 
 
 
